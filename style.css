@@ -49,14 +49,6 @@ width:fit-content;
   margin-top: 50px;
   color: #1f7976;
 }
-/*.container{
-  backdrop-filter:blur(10px);
-  width: 805px;
-  height: 340px;
-  margin-left: 360px;
-  margin-top: 59px;
-
-}*/
 
 
 /*------------------------------------------------------------------------INDEX-PAGE-----------------------------------------------------------------------------------------*/
@@ -120,78 +112,49 @@ a:hover{
 /*------------------------------------------------------------------------END-OF-INDEX-PAGE-----------------------------------------------------------------------------------------*/
 
 
-#mail{
-  margin-left: 600px;
-  color: white;
-  background-color: black;
-  width: 300px;
-  height: 30px;
-}
-#number{
-  margin-left: 600px;
-  color:white;
-  background-color: black;
-  width: 300px;
-  height: 30px;
-}
-#Mname{
-  color: white;
-  background-color: black;
-  width: 300px;
-  height: 30px;
-  margin-left: 600px;
+
+/*--------------------------------------------------------------------------Contact.css---------------------------------------------------------------------------------------------*/
+
+.container{
+  width: 50%;
+  margin-left:25%;
 
 }
+
+.mydetails{
+  background-color: black;
+  color: white;
+  padding: 0px;
+}
+
 .cont{
+  
   margin-top: 20px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
   background-color: #80808096;
   padding: 30px;
   border-radius: 8px;
-  flex-wrap: wrap;
-  height: 575px;
+  grid-template-columns: auto auto auto;
 
 }
-#Pinfo{
-  background-color: green
-  width: 235px;
-  height: 150px;
-  padding: 10px;
-  margin-left: 100px;
 
-}
+
 
 #DOB{
-  background-color: red
-  width: 235px;
-  height: 150px;
-  padding: 10px;
-  margin-left: 60px;
-}
-#Skills{
-  width: 590px;
-  height: 150px;
-  margin-top: 170px;
-  margin-left: -552px;
-
-}
-#strength{
-  width: 235px;
-  height: 150px;
-  margin-top: 440px;
-  margin-left: -590px;
-}
-h3{
   
-  margin-top: 300px;
-  margin-left: -216px;
+  margin-left: 52px;
+  margin-top: 50px;
 }
-h4{
-  margin-top: 500px;
-  margin-left: -80px;
-  font-size: 24px;
+
+#Edu{
+  margin-top: 10px;
 }
+
+#strength{
+ 
+  margin-left: 55px;
+}
+
 input{
   border-radius: 5px;
 }
@@ -425,25 +388,36 @@ opacity:10;
   border: 2px solid;
 }
 .container {
-    backdrop-filter: blur(10px);
-    width: 400px;
-    height: 340px;
-    margin-top: 59px;
+    
+    margin-left: 20px;
+
 }
-#Mname {
-    color: white;
-    background-color: black;
-    height: 30px; 
+
+
+/*---------------------------------CV.css----------------------------*/
+.cont {
+    margin-top: 20px;
+    display: grid;
+    background-color: #80808096;
+    padding: 30px;
+    border-radius: 8px;
+    grid-template-columns: none;
 }
-#mail {
-    color: white;
-    background-color: black;
-    height: 30px;
+
+#DOB{
+  
+  margin-left: 0px;
+  margin-top: 0px;
 }
-#number {
-    color: white;
-    background-color: black;
-     height: 30px;
+
+#Edu{
+  margin-top: 0px;
+}
+
+
+#strength{
+ 
+  margin-left: 0px;
 }
 
 
