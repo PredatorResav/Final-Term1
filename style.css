@@ -383,6 +383,17 @@ opacity:10;
   visibility: hidden;
 }
 
+#left{
+    margin-left: 150px;
+    float: left;
+    font-size: 29px;
+    margin-top: 0px;
+}
+#hello {
+    text-align: center;
+    font-size: 70px;
+    margin-top: -123px;
+}
 .buttons{
   margin-left:20px;
 }
