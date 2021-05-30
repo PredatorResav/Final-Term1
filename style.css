@@ -52,11 +52,7 @@ width:fit-content;
 
 
 /*------------------------------------------------------------------------INDEX-PAGE-----------------------------------------------------------------------------------------*/
-img{
-  border-radius: 150px;
-  float: right;
-  margin-top: 30px;
-}
+
 #left{
   margin-top: -100px;
   margin-left: 150px;
@@ -69,46 +65,25 @@ img{
   font-size: 70px;
   margin-top: 100px;
 }
-#button{
-  background-color: #69e1c8;
-  width: 102px;
-  height: 17px;
-  padding: 14px 16px;
-  margin-left: 770px;
-  margin-top: -34px;
-  border: 2px solid;
-}
-#button:hover{
-  background-color: black;
 
-}
+.buttons{  
+   
+   color: white;  
+   padding: 15px 32px;  
+   text-align: center; 
+   font-size: 16px;   
+ }
 
 a{
   text-decoration: none;
   color: black;
-
-
+  
 }
+
 a:hover{
-  color: white;
+  color: black;
+}
 
-
-}
-.buttons{
-  margin-top: 40px;
-}
-#button1{
-  background-color: #69e1c8;
-  width: 102px;
-  height: 20px;
-  padding: 14px 16px;
-  margin-left: 600px;
-  display: inline;
-  border: 2px solid;
-}
-#button1:hover{
-  background-color: black;
-}
 h5{
   text-align: center;
 }
@@ -128,6 +103,7 @@ h1{
 .container{
   width: 50%;
   margin-left:25%;
+  margin-top: -20px;
 
 }
 
@@ -180,7 +156,10 @@ textarea{
   border: 2px solid black;
   background-color: #0000000a;
 }
-
+#mylogoP{
+  
+  float: right;
+}
 /*-----------------------------------------------------------------------END-CV.css-----------------------------------------------------------------------------*/
 
 
@@ -193,7 +172,7 @@ textarea{
 }
 #box1{
     margin-top: 8px;
-    height: 170px;
+    height: 140px;
     background-color: #acacacc9;
     text-align: center;
     grid-column-start: 4;
@@ -235,6 +214,27 @@ textarea{
 	  grid-column-start: 4;
     grid-column-end: 1;
 }
+/*Site-Report-Css-Start*/
+
+fieldset{
+  font-size: 20px;
+  color: darkred;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 2.5%;
+}
+
+img{
+  width: 700px;
+  height: 300px;
+}
+
+/*Site-Report-css-End*/
+
+
 
 /*----End--------------------------------------------------------------------Of------------------------------------------------------------------------------Portfolio.html*/
 
@@ -253,7 +253,7 @@ body
 
 /*Hamburger-------------NAV------------------BAR*/
 .navv{
-opacity:10;
+opacity:1;
 }
 #menuToggle
 {
@@ -262,7 +262,6 @@ opacity:10;
   top: 50px;
   left: 50px;
   z-index: 1;
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -275,7 +274,9 @@ opacity:10;
 
 #menuToggle a:hover
 {
-  color: tomato;
+    background-color: #39e5aa;
+    color: black;
+    border-radius: 5px;
 }
 
 
@@ -293,7 +294,6 @@ opacity:10;
   opacity: 0; 
   z-index: 2; 
   
-  -webkit-touch-callout: none;
 }
 
 #menuToggle span
@@ -355,7 +355,6 @@ opacity:10;
   
   background: #345f6454;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased; 
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
@@ -392,7 +391,7 @@ opacity:10;
 #hello {
     text-align: center;
     font-size: 70px;
-    margin-top: -123px;
+    /*margin-top: -123px;*/
 }
 .buttons{
   margin-left:20px;
@@ -456,6 +455,35 @@ opacity:10;
   padding: 0px;
   width: 335px;
 }
+#mylogoP{
+  margin-left: -35px;
+}
+
+/*site-report-css*/
+
+.images{
+  display: grid;
+  grid-template-columns:none;
+  margin-left: 1%;
+}
+img{
+  width: 380px;
+  height: 300px;
+}
+
+.gridcontainer{
+  overflow: hidden;
+}
+/*end-site-report-css*/
+
+.buttons{  
+   
+   color: white;  
+   padding: 15px 8px 16px 1px;  
+   text-align: center; 
+   font-size: 16px;   
+
+ }
 
 }
 
